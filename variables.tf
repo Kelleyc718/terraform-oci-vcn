@@ -14,7 +14,6 @@
   */
 
 variable "cidr_block" {
-  default     = "10.0.0.0/16"
   description = "The CIDR IP address block of the VCN."
 }
 
@@ -24,7 +23,6 @@ variable "compartment_id" {
 
 variable "vcn_display_name" {
   description = "The name of the VCN displayed in the console."
-  default     = "VCN"
 }
 
 /**
